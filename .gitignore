@@ -1,0 +1,30 @@
+# Ambiente virtual
+.venv/
+*.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do Poetry
+poetry.lock
+
+# Diretórios de build e dist
+build/
+dist/
+*.egg-info/
+
+# Arquivos do editor
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
+*.bak
+*.swp
